@@ -20,6 +20,20 @@ Our goal is to deploy three distinct object detection models to identify and cla
 3. **Real-Time Evaluation**: 
    - The models are evaluated in a real-time setting, processing a video that includes instances of our target animals. Performance is assessed based on accuracy and processing speed.
 
+## Annotating Video Frames
+
+To ensure a robust and accurate evaluation of our object detection models, we meticulously annotated each frame of our video dataset using CVAT (Computer Vision Annotation Tool). This process involved marking out the exact locations and classifications of animals in each frame, thereby creating a reliable ground truth against which the models' predictions could be compared.
+
+### Annotation Process:
+
+1. **Selection of Frames**: Frames from the video were selected to cover a diverse range of scenarios, including different animals, backgrounds, and lighting conditions.
+2. **Annotation using CVAT**: Using CVAT, each selected frame was annotated with bounding boxes around the animals. These boxes were labeled with the respective animal classes, ensuring detailed and accurate annotations.
+3. **Quality Assurance**: Post-annotation, a thorough review process was conducted to ensure the accuracy and consistency of the annotations.
+
+These annotations were fundamental in providing an objective basis for evaluating model performance. They allowed us to precisely measure and compare the effectiveness of each model in real-world scenarios, ensuring a fair and quantifiable comparison of their abilities to detect and classify animals in real-time video footage.
+
+![Annotated Video Frame Example](Resources/Annotations.gif)
+
 ## The Contest
 
 - **Setup**: Three videos shown side-by-side, each analyzed by a different model.
