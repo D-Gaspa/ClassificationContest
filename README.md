@@ -61,12 +61,19 @@ We conducted a comprehensive evaluation of three different finetuned models on o
  
 ![Precision, Recall, and F1 Score Graphs against first Finetuned Model](Resources/Metrics1.png)
 
-- **Finetuned Model (10000 max iter, 0.2 threshold)**:
+- **Finetuned Model (2500 max iter, 0.15 threshold)**:
   - Precision: 0.2828
   - Recall: 0.5243
   - F1 Score: 0.3674
 
 ![Precision, Recall, and F1 Score Graphs against second Finetuned Model](Resources/Metrics2.png)
+
+- **Finetuned Model (2500 max iter, 0.2 threshold)**:
+  - Precision: 0.3537
+  - Recall: 0.4089
+  - F1 Score: 0.3793
+
+![Precision, Recall, and F1 Score Graphs against second Finetuned Model](Resources/Metrics4.png)
 
 - **Finetuned Model (10000 max iter, 0.5 threshold)**:
   - Precision: 0.1966
